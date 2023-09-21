@@ -1,0 +1,35 @@
+SETTING GLOBAL CONFIGS FOR THE FIRST TIME
+---------------------------------------------------------------------------------------------
+git config --global user.name "Subhadeep kumar Parai"
+git config --global user.email hike.subhadeep.20@gmail.com
+
+
+
+man page -> git
+git version -> git -v / git --version
+
+
+git init -> To initialize the git directory inside the working directory
+
+touch filename -> To create a new file
+cat filename -> To view the content of the file
+vim filename -> To edit the contents of the file in vim editor
+
+
+git add file.txt -> To stage the file or track it
+git add . -> To stage all the changes in the directory
+
+git restore --staged filename.txt -> To unstage / untrack the file
+git restore --staged . -> To unstage everything that is staged
+
+git status -> Shows all the tracked / untracked files else if everything is committed, it shows working tree clean
+
+git commit -m "message to be embedded with the commit record" -> To commit the staged / tracked content with a message
+
+git log -> To list down the entire list of commits statged one upon another. The topmost commit is the latest commit that's committed at the top of every commit.
+
+git reset e91710dfccf9dd27c0f07bb8f48f4c21c92510ce -> To delete every commit above this and revert back to this commit
+
+git stash -> To pause and save the current work and send to back queue
+git stash pop -> To call the paused work and set in front of stage to get staged / tracked
+git stash clear -> To clear all the stash (SEE LATER)
